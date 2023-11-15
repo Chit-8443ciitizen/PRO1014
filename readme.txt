@@ -1,2 +1,2 @@
-- Giải nén 2 file zip ( 01, 02 )
-- Đưa các file trên vào chung folder: PHP_Data_Access_Object
+- import sql gaubongshop vào phpmyadmin
+-
