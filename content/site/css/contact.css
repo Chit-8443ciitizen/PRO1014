@@ -1,0 +1,88 @@
+.detail-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detail-contact__form {
+    float : left;
+    margin-top : 55px;
+    width : 49%;
+
+}
+.detail-contact__icon {
+    float : right;
+    margin-top : 110px;
+    width : 48.7%;
+  
+}
+.detail-contact__form input {
+    width : 95%;
+    display: block;
+    padding : 15px 0px 15px 22px;
+    border: none;
+    background-color: #f7f7f7;
+    margin :15px 0px;
+}
+.detail-contact__form input:focus {
+    outline: none;
+}
+.detail-contact__form button {
+    display: block;
+}
+.detail-contact__form h3 {
+    font-size:18px ;
+    padding-bottom : 10px;
+}
+.detail-contact__form textarea {
+    width : 95%;
+    border: none;
+    background-color: #f7f7f7;
+}
+.detail-contact__form button {
+    background: #9ac100;
+    color: #fff;
+    border: none;
+    padding : 14px 35px;
+    font-size: 14px;
+    margin-top :12px;
+    cursor: pointer;
+}
+.custom-li-contact {
+    padding : 13px 13px !important;
+    font-size: 13px !important;
+}
+.detail-contact__icon-item i {
+    background: #9ac100;
+    color: #fff;
+    padding : 13px 15px;
+    font-size: 14px;
+    border-radius: 100%;
+    display: inline;
+    position: absolute;
+    top : 0px;
+}
+.detail-contact__icon-item-contact {
+    display: inline-block;
+    margin-left: 50px;
+}
+.detail-contact__icon-item {
+    position: relative;
+   
+    margin-bottom: 20px;
+}
+.detail-contact__icon-item-contact span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #707070;
+}
+.detail-contact__icon-item-contact a>p {
+ color: #fca901;
+ margin-top : 3px;
+}
+.detail-contact__icon-item-contact p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.google-map {
+    margin-top : 20px;
+}

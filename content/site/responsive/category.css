@@ -1,0 +1,140 @@
+@media only screen and (max-width: 1195px) {
+    .container {
+        width : 940px;
+    }
+   
+    .button-display-category {
+        display: block;
+        position: fixed;
+        right : 0px;
+        top : 35.2vh;
+        z-index: 1000;
+    } 
+    .button-display-category button {
+        cursor: pointer;
+        border : none;
+        padding: 10px;
+        background: #9ac100;
+    }
+    .app-category-content-left {
+        display: none;
+        border : 1px solid #c8c8c8;
+        float : none;
+        position: fixed;
+        top : -50px;
+        right : 0px;
+        background: white;
+        z-index: 1000;
+        width : 238px;
+    }
+
+    .app-category-content-left-over-flow {
+        height: 100vh;
+        overflow-x: auto;
+    }
+    .app-category-content__product-detail {
+        width : 55%;
+        margin-left : 0px;
+    }
+    .app-category-content__list-brand-search input {
+        width : 71.9%;
+    }
+    .app-category-content-left-close {
+        position: relative;
+        display: block;
+    }
+    .app-category-content-left-button-close {
+        position: absolute;
+        top : 326px;
+        left: -34px;
+        z-index: 1001;
+        
+    }
+    
+    .app-category-content-left-button-close button {
+        cursor: pointer;
+        border : none;
+        padding: 10px;
+        background: #9ac100;
+        }
+    .app-category-content-left-button-close button>i {
+      color : #fff;
+      font-size: 17px;
+        }
+    .button-display-category button>i {
+        color : #fff;
+        font-size: 17px;
+          }
+   .app-category-content-right {
+    float : none;
+    width : 100%;
+   }
+   .app-category-content-right-list-item-center {
+    width : 33.3%;
+   }
+   .app-category-content-right-list-item {
+    width: 100%;
+   }
+   .app-category-content-right-item-image img {
+    width : 80%;
+    height: 170px;
+   }
+   .app-category-content-right-item-image-hover {
+     display: none;
+   }
+   .app-poster {
+
+    background-size: 150% 100%;
+    background-repeat: none;
+}
+  
+}
+
+@media only screen and (max-width: 990px) {
+    .container {
+      
+        width: 730px;
+    }
+    .app-category-content-right-item-image img {
+        width : 65.2% !important;
+        height: 165px !important;
+       }
+    .app-poster {
+        background-size: 280% 100%;
+        background-repeat: none;
+    }
+    .app-category-content-right-item-image img {
+        width : 80%;
+        height: 120px !important;
+       }
+}
+
+@media only screen and (max-width: 766px) {
+    .container {
+        width : 97% !important;
+        
+    }
+   
+    .app-category-content-right-list-item-center {
+        width : 50%;
+       }
+       .app-category-content-right-list-item {
+        width: 100%;
+       }
+       .app-category-content-right-item-image img {
+        width : 80%;
+        height: 20% !important;
+       }
+       
+}
+
+@media only screen and (max-width: 480px) { 
+    .container {
+        width : 100%;
+    }
+    .app-category-content-right-item-image img {
+        width : 87% !important;
+        height: 110px !important;
+       }
+  
+}

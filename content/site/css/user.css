@@ -1,0 +1,125 @@
+.app-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app-login__form {
+    float : left;
+   margin-top : 65px;
+    width : 48.7%;
+}
+.app-login__forgot-password {
+    float : right ;
+     width :49%;
+    margin-top : 110px;
+   
+}
+.app-login__with-socialite {
+    text-align: center;
+    width : 100%;
+    margin-top : 25px;
+}
+.app-login__with-system span {
+    display : block;
+}
+.app-login_form-submit span {
+    display: inline !important;
+    margin-left : 20px;
+    color: #212B25;
+}
+.app-login__with-socialite span {
+    color: #212B25;
+    font-size : 14px;
+}
+.app-login_form-submit span>a {
+    text-decoration: underline;
+    color: #212B25;
+}
+.app-login_form-submit span:hover a {
+    
+    color:#9ac100;
+}
+.app-login__form-detail label {
+    display: block;
+}
+.app-login__with-system-title {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    color: #212B25;
+    margin-bottom: 25px;
+}
+.app-login__with-system-alert {
+    font-size: 14px;
+    color: #363636;
+    margin-bottom: 8px;
+}
+.app-login__form-detail label {
+    font-size: 14px;
+    color: #363636;
+    font-weight: 600;
+}
+.app-login__form-detail input {
+    margin : 5px 0px 15px 0px;
+    width : 96.3%;
+    color: #55595c;
+    background-color: #f7f7f7;
+     border: none;
+     padding : 15px 0px 15px 20px ;
+}
+.app-login__form-detail input:focus {
+    outline: none;
+}
+.app-login_form-submit button {
+    padding : 15px 25px 15px 25px;
+    background: #9ac100;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+}
+.app-login__with-socialite-icon img {
+    width : 130px;
+}
+.app-login__with-socialite-icon {
+    margin-top : 15px;
+}
+.app-login_form-submit button:hover {
+    background: #b2de02;
+}
+.app-login_form-submit {
+    margin-top : 10px;
+}
+.app-login__forgot-password span {
+    font-size: 14px;
+    color: #363636;
+}
+.btn-forgot button {
+    margin-top : 12px;
+}
+.app-login__forgot-password-title {
+    margin-bottom : 7px;
+}
+.app-login__register-right {
+    float : right ;
+     width :49%;
+    margin-top : 134px;
+   
+}
+.app-register-password input {
+    margin : 5px 0px 15px 0px;
+    width : 98.2%;
+    color: #55595c;
+    background-color: #f7f7f7;
+     border: none;
+     padding : 15px 0px 15px 20px ;
+}
+.app-register-password label {
+    font-size: 14px;
+    color: #363636;
+    font-weight: 600;
+}
+.app-register-password input:focus {
+    outline: none;
+    
+}
+

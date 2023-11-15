@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1195px) {
+    .container {
+        width : 940px;
+    }
+    
+    .app-login__form-custom-register {
+        width : 49% !important;
+        float : left !important;
+    }
+    .app-login__register-right-register {
+        float : right !important;
+        width : 49% !important;
+    }
+    .app-login__form {
+        float : none;
+        width : 100%;
+    }
+    .app-login__forgot-password {
+        margin-top : 25px;
+      float : none;
+      width : 100%;
+    }
+   
+}
+
+@media only screen and (max-width: 990px) {  
+    .container {
+      
+        width: 730px;
+    }
+    .app-login__form-custom-register {
+        width : 100% !important;
+        float : none !important;
+    }
+    .app-login__register-right-register {
+        margin-top : 0px !important;
+        float : none !important;
+        width : 100% !important;
+    }
+    .app-register-password-register {
+        width : 98% !important;
+    }
+  
+   
+   
+}
+
+@media only screen and (max-width: 766px) {
+    .container {
+        width : 97% !important;
+        
+    }
+   
+    
+}
+
+@media only screen and (max-width: 480px) { 
+    .container {
+        width : 100%;
+    }
+  
+   
+}

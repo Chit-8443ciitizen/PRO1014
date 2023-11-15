@@ -1,0 +1,533 @@
+@media only screen and (max-width: 1195px) {
+   
+  .call-icon {
+    display: block;
+   }
+   
+    .container {
+        width : 940px;
+    }
+    .top-banner__thumbnail {
+        display : none;
+    }
+    .top-banner__logo {
+        float : none !important;
+       
+    }
+    .logo-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .top-nav__search input {
+        width : 148px;
+    }
+    .carousel-header__image-left {
+        width : 22%;
+        
+    }
+    .carousel-header__img {
+        width: 100%;
+        height: 135px;
+    }
+    .carousel-header__detail-post {
+        width : 100%;
+    }
+    .carousel-header__img-content {
+        width : 86%;
+    }
+    .carousel-header__image-right {
+        width : 22%;
+    }
+    .carousel-header__content {
+        width : 50% !important;
+       
+    }
+   .carousel-header__center {
+    height : 289px !important;
+   }
+   .carousel-header__detail-center-post {
+    width : 39%;
+   }
+   .category-health__carousel {
+    width : 27.6%;
+   }
+   .category-health__post-content {
+    width : 65.2%;
+   }
+   .information-health__right {
+    display: none;
+   }
+   .information-health__left {
+    width : 48.4%;
+   }
+   .information-health__center{
+     width : 47.3%;
+   }
+   .foods__nav {
+    width : 18.3%;
+   }
+   .foods__products-item {
+    width : 30.7%;
+   }
+   .foods__products-item-image-hover {
+    display : none;
+   }
+    .app-footer__item-hidden-list {
+        width : 65%;
+    }
+    .app-footer__item {
+        width : 50%;
+    }
+    .app-footer {
+        height: 758px;
+        background-size: 2200px 758px !important;
+        background-repeat: none;
+    }
+    .copy-right {
+        width : 100%;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+  .carousel-header__content {
+    width : 92% !important;
+  }
+    .top-nav__list-mobile-user {
+     margin-bottom : 20px;
+    }
+    .top-nav__list-mobile-search input {
+        border : none;
+        background: #eee;
+        padding : 15px;
+        width : 65.6%;
+    }
+    .top-nav__list-mobile-search input:focus {
+       outline: none;
+     
+    }
+    .top-nav__list-mobile-search button {
+        padding : 10px 17px 12px 10px;
+        border: none;
+        position: relative;
+        left : -6px;
+    }
+
+    .top-nav__list-mobile-user i{
+      color : #fff;
+      
+    }
+    .top-nav__list-mobile-user span{
+        margin : 0px 8px;
+        color : #fff;
+        font-size: 15px;
+      }
+    .top-nav__list-mobile-user a{
+        font-size: 15px;
+        font-weight: 600 ;
+        color : #fff;
+      }
+    .top-nav__list-mobile {
+      position: relative;
+        padding : 25px 15px;
+        display: block;
+        background: #fca901;;
+    }
+    .active-li {
+        border-bottom: none;
+        color : #a7a7a7 !important;
+    }
+    .active-li-home {
+       
+       color : #eee !important; 
+       display: block;
+       padding-top  : 14px;
+       margin: 0px;
+       text-transform: uppercase;
+       font-weight: 600;
+    }
+    .top-nav__list {
+     display: none;
+        position: fixed !important;
+        top : 0px;
+        padding : 12px !important;
+       background: #333;
+       height: 100vh;
+       width : 265px;
+       left : 0px;
+       z-index: 1000;
+    }
+   .top-nav__list li>a {
+   
+   
+    
+    font-size: 17.5px;
+    color : #a7a7a7;
+    
+   }
+    .top-nav__list li {
+       position: relative;
+       padding : 15px;
+        background: #333;
+      list-style: none;
+        float : none;
+        border-bottom: 1px solid #a7a7a7;
+    }
+   
+   .top-nav__list li>i {
+    position: absolute;
+    top   : -300px !important;
+   }
+   .top-nav__list-child {
+    top : 28px;
+   }
+   .top-nav__list-mobile-close button {
+     background: #fca901;
+     border: none;
+     cursor: pointer;
+    padding : 10px;
+   }
+   .top-nav__list-mobile-close button>i {
+  color : white;
+   font-size: 16px;
+  }
+   .top-nav__list-mobile-close {
+    position: absolute;
+    right :-45px;
+   }
+  .top-nav__quantity-cart{
+    position:relative;
+    left : 15px !important;
+    top : -42px;
+  }
+ .top-nav__icon-cart {
+  position: relative;
+  right : 14px;
+  top : 2px;
+ }
+ .top-nav__list-child {
+  width : 94% !important;
+ }
+
+
+
+
+
+   .icon-nav-menu {
+    display : block;
+     position: relative;
+     top : 62px;
+     left : 12px;
+     z-index: 999;
+   }
+    .container {
+      
+        width: 730px;
+    }
+    
+    .top-nav__search {
+        display: none;
+    }
+    .top-nav__content-cart {
+        display : none;
+    }
+    .shopping-cart {
+        display: none !important;
+    }
+    .top-bar__auth {
+        display: none;
+    }
+    .top-bar__contact span:last-child {
+        display: none;
+    }
+    .top-nav__cart_hover {
+        position: absolute;
+        top : -80px;
+        left: -30px;
+    }
+   
+  
+   .carousel-header__image-left {
+    width : 48%;
+  
+    height: auto;
+   }
+   .carousel-header__image-right {
+    width : 48%;
+   
+    height: auto;
+   }
+   .carousel-header__img {
+    width: 100%;
+    height: 220px;
+ }
+   .carousel-position {
+       position: relative;
+   }
+   .owl-carousel-col-response {
+    position: absolute;
+    top : 0px;
+    
+    width : 1350px;
+ }
+ .response-position-carousel {
+    height : 320px;
+ }
+
+
+.carousel-header__center {
+ height : 289px !important;
+
+
+}
+.carousel-header__img-content {
+    width : 91.7%;
+   }
+.title-carousel__icon-right {
+    width : 80% !important;
+}
+.carousel-header__detail-post{
+     width : 57%;
+}
+.category-health__carousel {
+    width : 41.7%;
+   }
+   .category-health__post-content {
+    width : 65.2%;
+   }
+   .display-none-mobile {
+    display : none;
+   }
+   .information-health__center {
+     width : 46.1%;
+   } 
+   .information-health__center-detail {
+    width : 68%;
+   }
+   .foods__nav {
+    float : none;
+    width : 94%;
+   }
+   .foods__products {
+    margin-top : 30px;
+    float : none;
+    width : 100%;
+   }
+   .suggest-product__content-item {
+    width : 50%;
+   }
+   .policy-footer__ship-method-detail {
+    width : 33%;
+   }
+   .policy-footer__register-left {
+     width : 100%;
+   }
+   .app-footer {
+    height: 580px;
+  
+}
+.banner-foods__img {
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 766px) {
+  .top-nav__list {
+    width : 265px ;
+ }
+    .container {
+        width : 97% !important;
+        
+    }
+    .title-carousel__title-left {
+        float : none;
+        width: 100% !important;
+    }
+    .title-carousel__title-left button{
+       
+        width: 100% !important;
+    }
+    .title-carousel__icon-right {
+        float : none;
+    }
+    .owl-carousel-col-response {
+        position: absolute;
+        top : 0px;
+        
+        width : 178%;
+     }
+     .carousel-header__detail-center-post {
+        width : 45%;
+     }
+   .carousel-header__image-left {
+    width : 100%;
+   }
+   
+   .carousel-header__img {
+    height : 285px;
+   }
+   .carousel-header__image-right {
+    
+    width : 100%;
+   }
+   .carousel-header__detail-post {
+    width : 45%;
+   }
+   .carousel-header__img-content {
+    width : 93.8%;
+   }
+   .display-none-mobile {
+    display : block;
+   }
+   .category-health__carousel {
+     width : 92%;
+   }
+  
+   .category-health__image-main img{
+     width : 100% !important;
+     height: 255px;
+  }
+  .information-health__left {
+    width : 100%;
+    float : none;
+  }
+  .information-health__center {
+    margin-top : 20px;
+    float : none;
+    width : 100%;
+  }
+  .information-health__center-detail {
+    width : 77%;
+  }
+  .information-health__right {
+    
+    display: block;
+    float : none;
+  }
+  .foods__products-item {
+    width : 100%;
+  }
+  .suggest-product__content-item {
+    width : 100%;
+  }
+  .suggest-product__content {
+    margin-left : 14px;
+  }
+  .policy-footer__ship-method-detail {
+    width : 100%;
+    border-right : none;
+    float : none
+  }
+  .policy-footer__ship-method {
+    width : 100%;
+  }
+  .policy-footer__register {
+    margin-top : 25px;
+    width : 100%;
+  }
+  .policy-footer__register-left {
+    width: 100%;
+  }
+  .banner-foods { display :none}
+  .app-footer {
+    height: auto;
+    padding-bottom: 30px;
+  
+}
+ .app-footer__item {
+    width : 100%;
+ }
+ .category-health__post-image-left img {
+   width:  120px !important;
+    max-height: 50% !important;
+ 
+   
+}
+.carousel-header__content {
+    padding : 0px !important;
+    margin : 0px !important;
+    width : 100% !important;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+  
+
+    .container {
+        width : 100%;
+    }
+    .foods__nav {
+        width : 90%;
+    }
+    .carousel-header__content {
+        padding : 0px !important;
+        margin : 0px !important;
+        width : 100% !important;
+    }
+    .carousel-header__img {
+        width: 100%;
+        height: 235px;
+     }
+     .carousel-header__detail-post {
+        width : 53%;
+     }
+     .carousel-header__center  {
+      
+        height: 235px !important;
+     }
+     .response-position-carousel {
+        height : 255px;
+     }
+     .carousel-header__detail-center-post {
+        width : 50%;
+     }
+     .category-health__image-main img {
+        height : 210px !important;
+     }
+     .information-health__center-detail {
+        width : 60%;
+     }
+     .information-health__right img {
+        width : 250%;
+        height: 260px;
+     }
+     .category-health__carousel {
+      margin: 0px;
+      padding-left : 12px;
+     
+     }
+     .suggest-product__content {
+        margin-left : 0px;
+      }
+      .suggest-product__detail {
+        width : 55%;
+      }
+      .banner-foods__img {
+        width: 100%;
+    }
+    
+    .top-nav__list {
+        width : 65.3%;
+     }
+     .top-nav__list-mobile-search input {
+      
+      width : 60.6%;
+    
+  }
+  .show-detail-eye-success-add {
+    width : 90% !important;
+    padding-bottom : 80px;
+    max-width: 100%;
+  }
+  .information-health__center {
+    margin-right : 0px;
+  }
+  .custom-margin {
+    margin-right : 0px;
+  }
+  .foods__products-item {
+    margin-right: 0px !important;
+  }
+ 
+}
