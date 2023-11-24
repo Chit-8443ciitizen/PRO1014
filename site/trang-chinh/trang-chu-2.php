@@ -106,7 +106,7 @@
                                 <div class="carousel-header__detail-post">
                                     <!-- <a href=""> <span class="carousel-header_auth"><i class="fa fa-pencil-square"></i> Đặng hữu danh</span></a> -->
                                     <a href=""> <span class="carousel-header_date"><i class="fa fa-clock-o"></i>
-                                            23/03/2018</span></a>
+                                            23/12/2023</span></a>
                                 </div>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
                                 <div class="carousel-header__detail-post">
                                     <!-- <a href=""> <span class="carousel-header_auth"><i class="fa fa-pencil-square"></i> Đặng hữu danh</span></a> -->
                                     <a href=""> <span class="carousel-header_date"><i class="fa fa-clock-o"></i>
-                                            24/03/2018</span></a>
+                                            24/12/2023</span></a>
                                 </div>
                             </div>
                         </div>
@@ -149,7 +149,7 @@
                         <ul>
                             <?php
                             foreach ($dsloai as $value) {
-                                echo '<li><a href="' . $SITE_URL . "/hang-hoa/liet-ke.php?ma-loai=" . $value['ma_loai'] . '">' . $value['ten_loai'] . '</a> <span>(23)</span></li>';
+                                echo '<li><a href="' . $SITE_URL . "/hang-hoa/liet-ke.php?ma-loai=" . $value['ma_loai'] . '">' . $value['ten_loai'] . '</a> </li>';
                             }
                             ?>
                         </ul>
