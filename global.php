@@ -3,7 +3,7 @@ if(!session_id()){
     session_start();  
   }
 
-    $ROOT_URL = "/PRO1014";
+    $ROOT_URL = "/PRO1014"; // /xampp/htdocs/PRO1014 || /PRO1014
     $CONTENT_URL = "$ROOT_URL/content";
     $ADMIN_URL = "$ROOT_URL/admin";
     $SITE_URL = "$ROOT_URL/site";
