@@ -12306,7 +12306,7 @@ ALTER TABLE `order_detail`
 ALTER TABLE `binh_luan`
   ADD CONSTRAINT `bl_hh` FOREIGN KEY (`ma_hh`) REFERENCES `hang_hoa` (`ma_hh`),
   ADD CONSTRAINT `bl_kh` FOREIGN KEY (`ma_kh`) REFERENCES `khach_hang` (`ma_kh`);
-
+--ADD CONSTRAINT `bl_aa` FOREIGN KEY (`ma_aa`) REFERENCES `aa` (`ma_aa`);
 --
 -- Constraints for table `devvn_quanhuyen`
 --
